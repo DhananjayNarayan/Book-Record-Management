@@ -14,8 +14,8 @@ mysqli_close($con);
 <link rel="stylesheet" href="./css/viewStyle.css" />
 </head>
 <body bgcolor="Cornsilk " >
-<h1>Book Record Management</h1>
-<table id="view_table">
+<h1 style="text-align:center;"> View Book Record </h1>
+<table align="center" id="view_table">
 <tr>
 <th>Book ID</th>
 <th>Title</th>
