@@ -13,9 +13,9 @@ mysqli_close($con);
 <link rel="stylesheet" href="./css/viewStyle.css" />
 </head>
 <body bgcolor="Thistle ">
-<h1>Book Record Management</h1>
+<h1 style="text-align:center;">Delete Book Record </h1>
 <form action="deletion.php" method="post">
-<table id="view_table">
+<table align="center" id="view_table">
 <tr>
 <th>Book ID</th>
 <th>Title</th>
