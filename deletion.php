@@ -25,12 +25,12 @@ mysqli_close($con);
 <title>Deletion</title>
 </head>
 <body bgcolor="pink">
-<h1>Book Record Management</h1>
+<h1 style="text-align:center;">Deletion</h1>
 <p><?php 
 	  
 	  echo $size." Records Deleted"; 
      ?>
 </p>
-Go Back To Home Page<a href="home.php">Click Here</a>
+Go Back To Home Page :<a href="home.php">Click Here</a>
 </body>
 </html>
