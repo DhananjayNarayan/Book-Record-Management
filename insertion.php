@@ -1,3 +1,4 @@
+
 <?php
 $title=$_POST['title'];
 $price=$_POST['price'];
@@ -14,13 +15,14 @@ mysqli_close($con);
 <title>Insertion</title>
 </head>
 <body bgcolor="pink">
-<h1>Book Record Management</h1>
+<h1 style="text-align:center;">Book Record Insertion</h1>
 <p><?php if ($status==1) 
 	     echo "Record Inserted"; 
      else 
 		 echo "Insertion Failed"; 
     ?>
-</p>
+</p  >
 Do you want to insert more record? <a href="insertForm.php">Click Here</a>
+<br /> Go Back To Home Page :<a href="home.php">Click Here</a>
 </body>
 </html>
