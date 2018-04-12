@@ -29,12 +29,12 @@ mysqli_close($con);
 <title>Updation</title>
 </head>
 <body bgcolor="pink">
-<h1>Book Record Management</h1>
+<h1 style="text-align:center">Updation</h1>
 <p><?php 
 	  
 	  echo " Records Updated"; 
      ?>
 </p>
-Go Back To Home Page<a href="home.php">Click Here</a>
+Go Back To Home Page:<a href="home.php">Click Here</a>
 </body>
 </html>
