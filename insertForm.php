@@ -1,12 +1,13 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <title>Insertion Form</title>
 </head>
 <body bgcolor="Ivory ">
-<h1>Book Record Management</h1>
+<h1 style="text-align:center;">Book Record Management</h1>
 <form action="insertion.php" method="post">
-<table>
+<table align="center">
 <tr>
 <th>Title</th>
 <td><input type="text" name="title" required /></td>
