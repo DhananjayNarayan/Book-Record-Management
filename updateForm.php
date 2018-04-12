@@ -13,9 +13,9 @@ mysqli_close($con);
 <link rel="stylesheet" href="./css/viewStyle.css" />
 </head>
 <body bgcolor="PapayaWhip ">
-<h1>Book Record Management</h1>
-<form action="updation.php" method="post">
-<table id="view_table">
+<h1 style="text-align:center;">Update Book Record </h1>
+<form style="text-align:center;" action="updation.php" method="post">
+<table align="center" id="view_table">
 <tr>
 <th>Book ID</th>
 <th>Title</th>
