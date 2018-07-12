@@ -1,2 +1,2 @@
 # Book-Record-Management
-Simple PHP Project For Book Record Management.
+ Book Record Management Application done as a part of minor project in PHP and HTML.
